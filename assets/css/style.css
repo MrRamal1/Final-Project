@@ -248,7 +248,6 @@ body {
 }
 .advantages .container .row .advantages-els .advantages-el:hover {
   transform: translateY(-10px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   background-color: #df0a0a;
 }
 .advantages .container .row .advantages-els .advantages-el:hover .advantages-el-num {
@@ -398,4 +397,78 @@ body {
   color: #5d666f;
   font-weight: 600;
   font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.services .services-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.services .services-title h5 {
+  color: #df0a0a;
+  margin-bottom: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.services .services-title div {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.services .services-title div h2 {
+  color: #1c2539;
+  font-size: 48px;
+  font-weight: 700;
+}
+.services .container .swiper .swiper-wrapper .swiper-slide .services-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.services .container .swiper .swiper-wrapper .swiper-slide .services-slide .services-slide-content {
+  padding: 30px 40px;
+}
+.services .container .swiper .swiper-wrapper .swiper-slide .services-slide .services-slide-content .services-slide-title {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+.services .container .swiper .swiper-wrapper .swiper-slide .services-slide .services-slide-content .services-slide-title a {
+  font-size: 24px;
+  color: #1c2539;
+  text-decoration: none;
+  font-weight: 700;
+}
+.services .container .swiper .swiper-wrapper .swiper-slide .services-slide .services-slide-content .services-slide-title a:hover {
+  color: #df0a0a;
+  transition: 0.5s;
+}
+.services .container .swiper .swiper-wrapper .swiper-slide .services-slide .services-slide-content .services-slide-desc {
+  border-top: #5d666f solid 1px;
+  width: 300px;
+}
+.services .container .swiper .swiper-wrapper .swiper-slide .services-slide .services-slide-content .services-slide-desc p {
+  padding-top: 30px;
+  color: #5d666f;
+}
+.services .container .swiper .swiper-wrapper .swiper-slide .services-slide .services-slide-content .services-slide-desc p:hover {
+  color: #df0a0a;
+  transition: 0.5s;
+}
+.services .container .swiper .swiper-wrapper .swiper-slide .services-slide .services-slide-content .services-slide-nav {
+  width: 300px;
+  margin-top: 30px;
+}
+.services .container .swiper .swiper-wrapper .swiper-slide .services-slide .services-slide-content .services-slide-nav a {
+  margin-top: 16px;
+  text-decoration: none;
+  color: #1c2539;
+  font-weight: 700;
+}
+.services .container .swiper .swiper-wrapper .swiper-slide .services-slide .services-slide-content .services-slide-nav a:hover {
+  color: #df0a0a;
+  transition: 0.5s;
 }/*# sourceMappingURL=style.css.map */
