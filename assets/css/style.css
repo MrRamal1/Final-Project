@@ -399,6 +399,9 @@ body {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+.services {
+  padding-bottom: 120px;
+}
 .services .services-title {
   display: flex;
   flex-direction: column;
@@ -471,4 +474,390 @@ body {
 .services .container .swiper .swiper-wrapper .swiper-slide .services-slide .services-slide-content .services-slide-nav a:hover {
   color: #df0a0a;
   transition: 0.5s;
+}
+
+.why-us {
+  display: flex;
+  align-items: center;
+  background-image: url(/assets/images/why-us-bg.png);
+  background-repeat: no-repeat;
+  background-color: rgba(223, 10, 10, 0.0509803922);
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+  padding-top: 100px;
+}
+.why-us .container {
+  display: flex;
+}
+.why-us .container .why-us-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.why-us .container .why-us-left .why-us-title h5 {
+  color: #df0a0a;
+  font-size: 22px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.why-us .container .why-us-left .why-us-title p {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Urbanist", sans-serif;
+  margin-bottom: 30px;
+}
+.why-us .container .why-us-left .why-us-detail p {
+  color: #5d666f;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.why-us .container .why-us-left .why-us-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 90px;
+  gap: 50px;
+}
+.why-us .container .why-us-left .why-us-bottom .why-us-report {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.why-us .container .why-us-left .why-us-bottom .why-us-report .why-us-statics {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+  position: relative;
+}
+.why-us .container .why-us-left .why-us-bottom .why-us-report .why-us-statics img {
+  position: absolute;
+}
+.why-us .container .why-us-left .why-us-bottom .why-us-report .why-us-statics h5 {
+  position: absolute;
+  left: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+.why-us .container .why-us-left .why-us-bottom .why-us-report .why-us-bottom-details h5 {
+  color: #1c2539;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+.why-us .container .why-us-left .why-us-bottom .why-us-report .why-us-bottom-details p {
+  color: #5d666f;
+}
+.why-us .container .why-us-right {
+  display: flex;
+  justify-content: right;
+}
+.why-us .container .why-us-right .report-img img {
+  position: absolute;
+  right: 300px;
+  z-index: 2;
+  top: 3500px;
+  animation: moveLeftRight 2s infinite;
+}
+@keyframes moveLeftRight {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.why-us .container .why-us-right .icon-img img {
+  position: absolute;
+  right: 460px;
+  z-index: 2;
+}
+.why-us .container .why-us-right .main-img img {
+  position: relative;
+  z-index: 1;
+}
+
+.team-members {
+  display: flex;
+  flex-direction: column;
+}
+.team-members .team-members-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.team-members .team-members-title h5 {
+  color: #df0a0a;
+  margin-bottom: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+.team-members .team-members-title div {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.team-members .team-members-title div h2 {
+  color: #1c2539;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Urbanist", sans-serif;
+}
+.team-members .container .row .team-member {
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+.team-members .container .row .team-member .team-member-img {
+  width: 100%;
+}
+.team-members .container .row .team-member .team-member-img img {
+  border-radius: 40px;
+  width: 100%;
+}
+.team-members .container .row .team-member .team-member-nav {
+  visibility: hidden;
+  display: flex;
+  gap: 20px;
+  background-color: #df0a0a;
+  padding: 20px;
+  position: relative;
+  bottom: 100px;
+  left: 25px;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  transition: visibility 0s, opacity 0.5s;
+  width: 80%;
+}
+.team-members .container .row .team-member .team-member-nav a i {
+  color: #fff;
+}
+.team-members .container .row .team-member:hover {
+  transform: translateY(-15px);
+}
+.team-members .container .row .team-member:hover .team-member-nav {
+  visibility: visible;
+}
+.team-members .container .row .team-member .team-member-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.team-members .container .row .team-member .team-member-bottom .team-member-name h4 {
+  font-size: 24px;
+  color: #1c2539;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 600;
+}
+.team-members .container .row .team-member .team-member-bottom .team-member-name h4:hover {
+  color: #df0a0a;
+  transition: 1s;
+}
+.team-members .container .row .team-member .team-member-bottom .team-member-border {
+  background-color: #df0a0a;
+  width: 50px;
+  height: 3px;
+}
+
+.know-us {
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  gap: 300px;
+}
+.know-us .know-us-imgs {
+  position: relative;
+  width: 500px;
+  height: 800px;
+  justify-content: left;
+  background-color: #df0a0a;
+}
+.know-us .know-us-imgs .animated-bg img {
+  left: 20px;
+  top: 40px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  z-index: 1;
+  animation: moveTopBottom 2s infinite;
+}
+@keyframes moveTopBottom {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.know-us .know-us-imgs .know-us-img img {
+  border-radius: 20px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  z-index: 2;
+}
+.know-us .know-us-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 540px;
+}
+.know-us .know-us-details .know-us-details-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+.know-us .know-us-details .know-us-details-title h5 {
+  color: #df0a0a;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.know-us .know-us-details .know-us-details-title h2 {
+  color: #1c2539;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  font-family: "Urbanist", sans-serif;
+}
+.know-us .know-us-details .know-us-details-title p {
+  color: #5d666f;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.know-us .know-us-details .know-us-contents .know-us-content-top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.know-us .know-us-details .know-us-contents .know-us-content-top .know-us-content {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.know-us .know-us-details .know-us-contents .know-us-content-top .know-us-content i {
+  font-size: 36px;
+  color: #df0a0a;
+}
+.know-us .know-us-details .know-us-contents .know-us-content-top .know-us-content h4 {
+  color: #1c2539;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Urbanist", sans-serif;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.know-us .know-us-details .know-us-contents .know-us-content-top .know-us-content p {
+  color: #5d666f;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+.know-us .know-us-details .know-us-contents .know-us-content-bottom {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  gap: 20px;
+}
+.know-us .know-us-details .know-us-contents .know-us-content-bottom .know-us-content {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.know-us .know-us-details .know-us-contents .know-us-content-bottom .know-us-content i {
+  font-size: 36px;
+  color: #df0a0a;
+}
+.know-us .know-us-details .know-us-contents .know-us-content-bottom .know-us-content h4 {
+  color: #1c2539;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Urbanist", sans-serif;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.know-us .know-us-details .know-us-contents .know-us-content-bottom .know-us-content p {
+  color: #5d666f;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.reviews {
+  padding: 120px 0px;
+}
+.reviews .container {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+.reviews .container .reviews-left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.reviews .container .reviews-left-side .reviews-title h5 {
+  color: #df0a0a;
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.reviews .container .reviews-left-side .reviews-title h2 {
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: #1c2539;
+  font-weight: 600;
+}
+.reviews .container .reviews-left-side .reviews-slide {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+.reviews .container .reviews-left-side .reviews-slide .reviews-slide-top {
+  width: 520px;
+}
+.reviews .container .reviews-left-side .reviews-slide .reviews-slide-top i {
+  color: #df0a0a;
+  font-size: 48px;
+  font-weight: 600;
+}
+.reviews .container .reviews-left-side .reviews-slide .reviews-slide-top h5 {
+  color: #5d666f;
+  margin-left: 50px;
+  margin-bottom: 40px;
+}
+.reviews .container .reviews-left-side .reviews-slide .reviews-slide-bottom {
+  display: flex;
+  align-items: center;
+  margin-left: 60px;
+  gap: 30px;
+}
+.reviews .container .reviews-left-side .reviews-slide .reviews-slide-bottom .reviews-slide-bottom-name h5 {
+  width: 250px;
+  color: #1c2539;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.reviews .container .reviews-left-side .reviews-slide .reviews-slide-bottom .reviews-slide-bottom-name p {
+  color: #5d666f;
+  font-weight: 600;
+}
+.reviews .container .reviews-right-side {
+  margin-top: 70px;
+}
+.reviews .container .reviews-right-side img {
+  border-radius: 30px;
+  width: 445px;
 }/*# sourceMappingURL=style.css.map */
