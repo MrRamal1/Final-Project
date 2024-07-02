@@ -180,10 +180,6 @@ body {
   padding: 18px 50px;
   background-color: #df0a0a;
 }
-.hero-slider .container .slide .hero-slider-bottom a button:hover {
-  background-color: #1c2539;
-  transition: 1s;
-}
 .hero-slider .container .slide .hero-slider-bottom a button span {
   font-weight: 700;
   color: #fff;

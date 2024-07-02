@@ -203,10 +203,6 @@ body {
             border: none;
             padding: 18px 50px;
             background-color: #df0a0a;
-            &:hover{
-              background-color: #1c2539;
-              transition: 1s;
-            }
             span {
               font-weight: 700;
               color: #fff;
@@ -229,7 +225,7 @@ body {
               display: flex;
               align-items: center;
               justify-content: center;
-
+              
               i {
                 font-size: 24px;
                 color: #df0a0a;
