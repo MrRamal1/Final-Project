@@ -2542,9 +2542,9 @@ body {
           border-radius: 50%;
           background-color: transparent;
           transform: translate(-50%, -50%);
-          animation: ringExpand 1.5s infinite;
+          animation: waveanimation 1.5s infinite;
         }
-        @keyframes ringExpand {
+        @keyframes waveanimation {
           0% {
             box-shadow: 0 0 20 0 #f0f0f0;
           }
